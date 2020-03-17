@@ -39,8 +39,8 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000022": "^1.0.202003171131",
-		"node-fetch": "^2.6.0"
+		"@mmstudio/an000022": "1.0.202003171131",
+		"node-fetch": "2.6.0"
 	},
 	"devDependencies": {
 		"@mmstudio/config": "latest",
