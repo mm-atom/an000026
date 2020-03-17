@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mm-tpl/atom-nodejs"
+		"url": "https://github.com/mm-atom/an000026"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -38,8 +38,13 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"@mmstudio/an000022": "^1.0.202003171131",
+		"node-fetch": "^2.6.0"
+	},
 	"devDependencies": {
+		"@mmstudio/config": "^1.0.202003171037",
+		"@types/node-fetch": "^2.5.5",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
