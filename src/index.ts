@@ -21,7 +21,6 @@ export default async function check(text: string) {
 			errMsg: string;
 		};
 		return result.errcode === 87014;
-	} else {
-		throw new Error(res.statusText);
 	}
+	throw new Error(res.statusText);
 }
