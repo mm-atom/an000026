@@ -41,11 +41,12 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000022": "1.0.202003171131",
+		"@mmstudio/an000022": "1.0.202004170809",
 		"node-fetch": "2.6.0"
 	},
 	"devDependencies": {
 		"@mmstudio/config": "latest",
+		"@types/minio": "latest",
 		"@types/node-fetch": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
